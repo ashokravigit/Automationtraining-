@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-25T16:43:41 IST" name="Default suite" finished-at="2021-11-25T16:46:11 IST" duration-ms="150796">
+    <groups>
+    </groups>
+    <test started-at="2021-11-25T16:43:41 IST" name="Default test" finished-at="2021-11-25T16:46:11 IST" duration-ms="150796">
+      <class name="packagepega.pegalogin_1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:43:41 IST" name="setup" finished-at="2021-11-25T16:43:52 IST" duration-ms="10916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launch_app()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:43:52 IST" name="launch_app" finished-at="2021-11-25T16:44:06 IST" duration-ms="14827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method signature="enter_user()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:44:06 IST" name="enter_user" finished-at="2021-11-25T16:44:12 IST" depends-on-methods="packagepega.pegalogin_1.launch_app" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_user -->
+        <test-method signature="enter_pswd()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:44:12 IST" name="enter_pswd" finished-at="2021-11-25T16:44:17 IST" depends-on-methods="packagepega.pegalogin_1.enter_user" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_pswd -->
+        <test-method signature="clicklogin()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:44:17 IST" name="clicklogin" finished-at="2021-11-25T16:46:05 IST" depends-on-methods="packagepega.pegalogin_1.enter_pswd" duration-ms="107749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklogin -->
+        <test-method signature="get_title()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:46:05 IST" name="get_title" finished-at="2021-11-25T16:46:10 IST" depends-on-methods="packagepega.pegalogin_1.clicklogin" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_title -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:packagepega.pegalogin_1@6404f418]" started-at="2021-11-25T16:46:10 IST" name="finish" finished-at="2021-11-25T16:46:11 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- packagepega.pegalogin_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
